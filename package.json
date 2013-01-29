@@ -1,0 +1,32 @@
+{
+  "name": "static-assets",
+  "version": "0.0.0",
+  "description": "cli tool for slurping up assets and plopping them into a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "bin": {
+    "static-assets": "./bin/static-assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/static-assets.git"
+  },
+  "keywords": [
+    "static",
+    "assets",
+    "voxeljs",
+    "cli"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "dependencies": {
+    "nopt": "~2.0.0",
+    "glob": "~3.1.17",
+    "mkdirp": "~0.3.4",
+    "cpr": "0.0.6",
+    "resolve": "~0.2.3"
+  }
+}
